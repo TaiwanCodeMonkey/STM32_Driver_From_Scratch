@@ -1,4 +1,5 @@
 # STM32F446RE_Driver_From_Scratch
+# STM32F446RE_Driver_From_Scratch
 
 ## Boards available
 * STM32F4
@@ -15,21 +16,21 @@ In this repository which contain two folder, the folder structure as shown in be
 ## Cuurent  module
 
 - GPIO
-Basic Init configuration
- External Interupt
+--Basic Init configuration
+ --External Interupt
 - Flash
-Program Flash(Bytes, Half Word, Word)
-Erase Sector
+--Program Flash(Bytes, Half Word, Word)
+--Erase Sector
 - ---
 - CAN Bus (CAN Standard)
-Init Configuration
-Fileter Configuration
-Send Message
-Reveice Message
+--Init Configuration
+--Fileter Configuration
+--Send Message
+--Reveice Message
 - Flash Emulate EEPROM
-Simple wear leveling algorithm
+--Simple wear leveling algorithm
 - SPI
-Init Configuration
-Send data
-Receive data
-Interupt
+--Init Configuration
+--Send data
+--Receive data
+--Interupt
