@@ -1,6 +1,6 @@
 # STM32F446RE_Driver_From_Scratch
 
-## Boards available
+## Boards avaliable
 * STM32F4
     * [STM32446RE](https://www.st.com/en/microcontrollers-microprocessors/stm32f446re.html)
 
@@ -12,7 +12,7 @@ In this repository which contain two folder, the folder structure as shown in be
 - Drivers
 -- This folder contain the major drvier souces file and header file
 
-## Cuurent  module
+## Current  module
 
 * GPIO
     * Basic Init configuration
