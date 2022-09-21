@@ -15,28 +15,26 @@ In this repository which contain two folder, the folder structure as shown in be
 ## Cuurent  module
 Below illustrate each driver caplbility
 * GPIO
-    * Enables or disables peripheral clock for the given GPIO port
-    * Initializes the GPIO peripheral according to the specified parameters in the GPIO_Handle structure
-    * Read/Write Pin
-    * IRQ Configuration
-    * External Interrupt
+    - Enables or disables peripheral clock for the given GPIO port
+    - Initializes the GPIO peripheral according to the specified parameters in the GPIO_Handle_t
+    - Read/Write Pin
+    - IRQ Configuration
+    - External Interrupt
 * Flash
-    * Unlock the FLASH control register access
-    * Program byte, halfword, word at a specified address
-    * Erase at specified sector
-    * Erase all sector
+    - Unlock the FLASH control register access
+    - Program byte, halfword, word at a specified address
+    - Erase at specified sector
+    - Erase all sector
 * CAN Bus (CAN Standard)
-    * Initializes the CAN peripheral according to the specified parameters in the CAN_Handle structure
-    * Wake up from sleep mode
-    * Start the CAN module 
-    * Configures the CAN reception filter according to the specified  parameters in the CAN_FilterCon structure
-    * Add a message to the first free Tx mailbox and activate the corresponding transmission request
-    * Get an CAN frame from the Rx FIFO mailbox
+    - Initializes the CAN peripheral according to the specified parameters in the CAN_InitStruct
+    - Configures the CAN reception filter according to the specified  parameters in the CAN_FilterCon struct
+    - Add a message to the first free Tx mailbox and activate the corresponding transmission request
+    - Get an CAN frame from the Rx FIFO mailbox
 * Flash Emulate EEPROM
-    * Simple wear leveling algorithm which can extend flash lifetime
+    - Simple wear leveling algorithm which can extend flash lifetime
 * SPI
-    * Initializes the SPI peripheral according to the specified parameters in the SPI_Handle struct
-    * Enables or disables peripheral clock for the given GPIO port
-    * Transmit data
-    * Receive data
-    * Transmit and Receive data with interrupt
+    - Initializes the SPI peripheral according to the specified parameters in the SPI_InitStruct
+    - Enables or disables peripheral clock for the given SPI port
+    - Transmit data
+    - Receive data
+    - Transmit and Receive data with interrupt
