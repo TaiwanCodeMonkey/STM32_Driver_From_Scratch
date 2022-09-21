@@ -16,7 +16,7 @@ In this repository which contain two folder, the folder structure as shown in be
 Below illustrate each driver caplbility
 * GPIO
     - Enables or disables peripheral clock for the given GPIO port
-    - Initializes the GPIO peripheral according to the specified parameters in the GPIO_Handle_t
+    - Initializes the GPIO peripheral according to the specified parameters in the GPIO_Handle_t structure
     - Read/Write Pin
     - IRQ Configuration
     - External Interrupt
@@ -26,14 +26,14 @@ Below illustrate each driver caplbility
     - Erase at specified sector
     - Erase all sector
 * CAN Bus (CAN Standard)
-    - Initializes the CAN peripheral according to the specified parameters in the CAN_InitStruct
-    - Configures the CAN reception filter according to the specified  parameters in the CAN_FilterCon struct
+    - Initializes the CAN peripheral according to the specified parameters in the CAN_Handle_t structure
+    - Configures the CAN reception filter according to the specified  parameters in the CAN_FilterCon structure
     - Add a message to the first free Tx mailbox and activate the corresponding transmission request
     - Get an CAN frame from the Rx FIFO mailbox
 * Flash Emulate EEPROM
     - Simple wear leveling algorithm which can extend flash lifetime
 * SPI
-    - Initializes the SPI peripheral according to the specified parameters in the SPI_InitStruct
+    - Initializes the SPI peripheral according to the specified parameters in the SPI_Handle structure
     - Enables or disables peripheral clock for the given SPI port
     - Transmit data
     - Receive data
